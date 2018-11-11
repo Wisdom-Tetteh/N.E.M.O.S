@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="96" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" pref="860" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="326" max="32767" attributes="0"/>
+              </Group>
+              <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/moos/logo.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Georgia" size="14" style="3"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="&#x9;&#x9;------------ PORT SCANN ------------------&#xa;1) &#x9;The user provides the IP Address in which he wants to scan or initialize a port enumeration.&#xa;2)&#x9; The user must provide the range of port desired. &#xa;3) &#x9;A filter to select either to display only open ports or display open or closed ports. &#xa;4)&#x9; On the right pane displays the results.&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#x9;&#x9; ----------- TROUBLESHOOTING ---------- &#xa;1)&#x9; This module specifies the Troubleshooting aspect of the system (Phase 1). &#xa;2) &#x9;This Phase is to test the bandwidth of a network. &#xa;3)&#x9; This is done by providing the IP, Port and mode (Full Duplex, Send or Receive Only, and then clicking the Test Bandwidth button to execute.&#xa;4)&#x9; Results would be displayed in the text area.&#xa;&#xa;&#xa;&#xa;&#xa;PING!!!!!&#xa;1) &#x9;This Phase is in 3 categories&#xa;2)&#x9; To Png a network, provide the DNS name or IP Address of that server you need to ping.&#xa;3) &#x9;The system would connrct to the srver and display the results in terms of FAILS and SUCCESS during the piinging,&#xa;&#xa;&#xa;&#xa;DNS!!!!!&#xa;4) &#x9;Using the DNS aspect is also simple. &#xa;5)&#x9; Provide the DNS name&#xa;6)&#x9; Select the type ( A, MX and AAA) you wish to use.&#xa;7)&#x9; Input a server address. (NB: Default is 8.8.8.8)&#xa;8) &#x9;Results are displayed in the OUTPUT text area pane. &#xa;&#xa;&#xa;&#xa;IP ADDRESS!!!!!&#xa;9) &#x9;To find the internet and intranet addrss on the network &#xa;10)&#x9; Click on the CHECK IP ADDRESS button,&#xa;11) &#x9;Results of each woud be displayed in the area &#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#x9;&#x9;----------------------------------- PACKET ANALYZER ----------------------------------&#xa;1)&#x9;This module depicts the network capture module. &#xa;2)&#x9;It is implemented by selecting a network interface initially.&#xa;3)&#x9; Click on Start, the system captures the packets going through and fro within the system. &#xa;4)&#x9;Upon clicking on an interface it displays the details of that particular packet ranging from Source IP, Destination, Acknowledge, Data, and Packet Header etc.&#xa;5)&#x9;Users can save the captured data from the system after clicking the END button (to stop packet capture).&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#x9;&#x9;-------------------- NETWORK EFFICIENCY --------------------&#xa;1)&#x9;Select a desired algorithm to use.&#xa;2)&#x9;Navigate to PATH and select a network topology&#xa;3)&#x9;Click on PROCEED.&#xa;4)&#x9;The systems draws a graphical representation of the results in the left pane of the GUI.&#xa;5)&#x9;Right click on any of the computers to UP / DOWN during testing.&#xa;6)&#x9;To use HOPS, click select an algorithm and click HOPS to provide the below image results.&#xa;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
